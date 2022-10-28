@@ -1,0 +1,58 @@
+@media (max-width: 375px)
+{
+body
+{
+    font-family: Inter;
+    margin: 0px;
+    padding: 20px;
+    transition: all ease-in-out 0.15s;
+}
+
+header
+{
+    display: grid;
+    margin-bottom: 20px;
+}
+
+hr
+{
+    width: 100%;
+    border: none;
+    height: 1px;
+    background: hsl(233, 19%, 25%);
+    display: grid;
+    margin: 20px 0px;
+}
+
+.headSwitch
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headInfo h1
+{
+    font-size: 28px;
+}
+
+.headInfo
+{
+    margin-bottom: 8px;
+}
+
+.firstGrid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 240px;
+    gap: 40px;
+}
+
+.secondGrid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 165px 165px;
+    gap: 20px;
+}
+}
