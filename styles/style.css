@@ -261,7 +261,7 @@ input:checked ~ .slider:before
 
 .secondBox:hover
 {
-    background: rgb(223, 225, 233);
+    filter: brightness(95%);
 }
 
 .topText, .bottomText
