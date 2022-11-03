@@ -142,6 +142,7 @@ input:checked ~ .slider:before
 .firstBox:hover
 {
     filter: brightness(95%);
+    transform: scale(1.01);
 }
 
 .boxTopText
@@ -262,6 +263,7 @@ input:checked ~ .slider:before
 .secondBox:hover
 {
     filter: brightness(95%);
+    transform: scale(1.01);
 }
 
 .topText, .bottomText
